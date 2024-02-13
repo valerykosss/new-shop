@@ -611,9 +611,6 @@ if ( ! function_exists( 'woostify_trust_badge_image' ) ) {
 			return;
 		}
 		?>
-		<div class="woostify-trust-badge-box">
-			<img src="<?php echo esc_url( $image_url ); ?>" alt="<?php esc_attr_e( 'Trust Badge Image', 'woostify' ); ?>">
-		</div>
 		<?php
 	}
 }
